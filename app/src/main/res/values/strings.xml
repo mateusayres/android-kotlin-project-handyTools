@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HandyTools</string>
+    <string name="nav_header_title">HandyTools</string>
+    <string name="nav_header_subtitle">Bem-vindo</string>
+    <string name="action_settings">Nada ainda</string>
+
+    <string name="str_inicio">Bem-vindo a HandyTools</string>
+    <string name="str_sub_inicio">Navegue pelos aplicativos à esquerda</string>
+    <string name="str_by">By Ayres © 2024</string>
+    <string name="str_verciculo">Tudo posso naquele que me fortalece.</string>
+    <string name="str_end_verciculo">Filipenses 4:13</string>
+
+    <string name="str_title_inicio">Inicio</string>
+    <string name="str_sobre">Sobre</string>
+    <string name="str_titulo">Validador de Número</string>
+    <string name="str_validador_de_numero">Validador de Nº</string>
+    <string name="str_subTitulo">ÍMPAR OU PAR?</string>
+    <string name="str_tituloImc">Calculadora de IMC</string>
+
+    <string name="str_numero">Insira um número</string>
+    <string name="str_valor">Insira um valor</string>
+    <string name="str_limpar">Limpar</string>
+    <string name="str_calc">Resposta</string>
+    <string name="str_imcResultText">Resultado</string>
+    <string name="str_calcular">Calcular</string>
+    <string name="str_aguardando">Aguardando</string>
+
+    <string name="msg_campo_peso">Por favor, preencha o seu peso</string>
+    <string name="msg_campo_altura">Por favor, preencha a sua altura</string>
+    <string name="msg_campo_obrigatorio">Preencha o campo obrigatório</string>
+    <string name="str_hint_peso">Informe seu peso (ex.: 69.7)</string>
+    <string name="str_hint_altura">Informe sua altura (ex.: 1.74)</string>
+    <string name="str_imcResult">Seu IMC aparece aqui</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_tituloR3">Regra de Três</string>
+    <string name="str_A">Valor A</string>
+    <string name="str_B">Valor B</string>
+    <string name="str_X">X</string>
+    <string name="str_CentroR3">ASSIM COMO</string>
+    <string name="str_C">Valor C</string>
+    <string name="str_vazio">Preencha este campo</string>
+    <string name="texto_arrow">Toque no menu à esquerda!</string>
+    <string name="str_tituloComprimento">Conversor de Comprimento</string>
+</resources>

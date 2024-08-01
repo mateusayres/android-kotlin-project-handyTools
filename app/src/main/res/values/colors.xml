@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="default_color_app">#00B4FF</color>
+    <color name="default_button">#0000FF</color>
+    <color name="default_tx_bt">#FFFFFF</color>
+    <color name="by">#FF0000</color>
+</resources>

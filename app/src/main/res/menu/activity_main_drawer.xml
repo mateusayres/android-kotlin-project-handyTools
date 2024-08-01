@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="@string/str_title_inicio" />
+
+        <item
+            android:id="@+id/nav_validador_de_numero"
+            android:icon="@drawable/ic_calc"
+            android:title="@string/str_validador_de_numero" />
+
+        <item
+            android:id="@+id/nav_calculadora_de_imc"
+            android:icon="@drawable/ic_calc"
+            android:title="@string/str_tituloImc" />
+
+        <item
+            android:id="@+id/nav_regra_de_tres"
+            android:icon="@drawable/ic_calc"
+            android:title="@string/str_tituloR3" />
+
+        <item
+            android:id="@+id/nav_conversor_comprimento"
+            android:icon="@drawable/ic_calc"
+            android:title="@string/str_tituloComprimento" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_sobre"
+            android:title="@string/str_sobre" />
+
+    </group>
+</menu>

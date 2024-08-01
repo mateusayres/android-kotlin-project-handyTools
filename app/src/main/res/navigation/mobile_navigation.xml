@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="br.com.handytools.fragment.InicioFragment"
+        android:label="@string/str_title_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_validador_de_numero"
+        android:name="br.com.handytools.fragment.ValidadorDeNumeroFragment"
+        android:label="@string/str_validador_de_numero"
+        tools:layout="@layout/fragment_validador_de_numero" />
+    <fragment
+        android:id="@+id/nav_calculadora_de_imc"
+        android:name="br.com.handytools.fragment.ImcFragment"
+        android:label="@string/str_tituloImc"
+        tools:layout="@layout/fragment_imc" />
+
+    <fragment
+        android:id="@+id/nav_regra_de_tres"
+        android:name="br.com.handytools.fragment.RegraDeTresFragment"
+        android:label="@string/str_tituloR3"
+        tools:layout="@layout/fragment_regra_de_tres" />
+
+    <fragment
+        android:id="@+id/nav_conversor_comprimento"
+        android:name="br.com.handytools.fragment.ConversorComprimentoFragment"
+        android:label="@string/str_tituloComprimento"
+        tools:layout="@layout/fragment_conversor_comprimento" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="br.com.handytools.fragment.SobreFragment"
+        android:label="@string/str_sobre"
+        tools:layout="@layout/fragment_sobre" />
+</navigation>

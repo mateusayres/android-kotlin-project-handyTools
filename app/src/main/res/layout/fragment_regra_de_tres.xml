@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="32dp"
+                android:text="@string/str_tituloR3"
+                android:textSize="50sp"
+                android:textStyle="bold" /> -->
+
+            <!-- Linha de Cima -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp">
+
+                <!-- Primeiro Campo -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilValorA"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginEnd="10dp"
+                    android:hint="@string/str_A">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tieValorA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:maxLength="9"
+                        android:gravity="center"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- X-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/str_X"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <!-- Segundo Campo -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilValorB"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:hint="@string/str_B">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tieValorB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:maxLength="9"
+                        android:gravity="center"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <!-- Assim Como -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/str_CentroR3"
+                    android:layout_marginEnd="10dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <!-- Linha de Baixo -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp">
+
+                <!-- Primeiro Campo -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilValorC"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginEnd="10dp"
+                    android:hint="@string/str_C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tieValorC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:maxLength="9"
+                        android:gravity="center"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- X-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/str_X"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <!-- Segundo Campo -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilValorX"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:hint="@string/str_imcResultText">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tieValorX"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        android:maxLength="9"
+                        android:background="@drawable/rounded"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <!-- Linear dos Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+>
+
+                <Button
+                    android:id="@+id/btnCalcR3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:backgroundTint="@color/default_button"
+                    android:text="@string/str_calcular"
+                    android:textColor="@color/default_tx_bt"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/btnLimparR3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:backgroundTint="@color/default_button"
+                    android:text="@string/str_limpar"
+                    android:textColor="@color/default_tx_bt"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
