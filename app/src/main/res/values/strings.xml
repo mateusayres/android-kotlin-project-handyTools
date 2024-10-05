@@ -42,4 +42,5 @@
     <string name="str_vazio">Preencha este campo</string>
     <string name="texto_arrow">Toque no menu à esquerda!</string>
     <string name="str_tituloComprimento">Conversor de Comprimento</string>
+    <string name="str_unidadesVazias">"Por favor, selecione as unidades.</string>
 </resources>

@@ -79,8 +79,8 @@ class ImcFragment : Fragment() {
             til.error = null
         } else {
             til.error = msgErro
-            binding.tvResultado.setText(R.string.str_imcResultText)
-            binding.tvIMC.setText(R.string.str_imcResult)
+            tvResultado.setText(R.string.str_imcResultText)
+            tvIMC.setText(R.string.str_imcResult)
         }
     }
 
