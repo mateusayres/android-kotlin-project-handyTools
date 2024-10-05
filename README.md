@@ -10,7 +10,7 @@ Tenha um app em mão com diversas funcionalidades como: IMC, Regra de Três, Con
 
 APK Build For Tester: <img align="center" alt="mateusayres-Android" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg">
 <br>
-<a href="https://github.com/mateusayres/android-kotlin-project-handyTools/raw/main/HandyTools%20v1.2.0.0.apk">ProjectForStudy v1.2.0.0.apk</a>
+<a href="https://github.com/mateusayres/android-kotlin-project-handyTools/raw/main/HandyTools%20v1.2.0.0.apk">HandyTools v1.2.0.0.apk</a>
 
 Preview: <br>
 <p align="center">
